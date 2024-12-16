@@ -11,10 +11,24 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+//face
+fill(162, 102, 41);
+ellipse(233,173,200,250);
+//eyes
+fill(227, 223, 218 );
+ellipse(180,150,50,50);
+ellipse(290,150,50,50);
+fill(0);
+ellipse(179,150,30,30);
+ellipse(290,150,30,30);
   
+//mouth
 
-  
+bezier(250,250,300,10,14,600,200,230);
 
+//eyebrow
+fill(42, 39, 35);
+rect(250,100,100,20);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
